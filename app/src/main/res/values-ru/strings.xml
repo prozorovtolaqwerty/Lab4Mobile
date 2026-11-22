@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ижевск</string>
+    <string name="city_name">Ижевск</string>
+    <string name="city_subtitle">Куда сходить в городе</string>
+    <string name="category_coffee">Кофейни</string>
+    <string name="category_restaurants">Рестораны</string>
+    <string name="category_parks">Парки</string>
+    <string name="category_kids">Детям</string>
+    <string name="category_shopping">Магазины</string>
+    <string name="about_title">О приложении</string>
+    <string name="settings_title">Настройки</string>
+    <string name="detail_title">Место</string>
+    <string name="place_icon">Значок места</string>
+    <string name="compact_cards">Компактные карточки</string>
+    <string name="walk_reminder">Напоминать о прогулке</string>
+    <string name="settings_hint">Настройки сохраняются при повороте экрана. Напоминание не отправляет уведомления.</string>
+    <string name="about_body">Приложение собирает короткие рекомендации по Ижевску: где выпить кофе, поесть, погулять, сходить с детьми и сделать покупки. Откройте раздел в нижних вкладках или в боковом меню. Нажмите на карточку, чтобы прочитать подробнее.
+
+Автор: Прозоров Анатолий.</string>
+
+    <string name="place_coffee_embankment_name">Кофе у набережной</string>
+    <string name="place_coffee_embankment_summary">Напиток с собой и прогулка вдоль пруда.</string>
+    <string name="place_coffee_embankment_detail">Набережная зодчего Дудина удобна для неспешного кофе на ходу. От воды свежий воздух, а вид на пруд хорошо подходит для короткой паузы.</string>
+
+    <string name="place_coffee_garden_name">Кофе в Летнем саду</string>
+    <string name="place_coffee_garden_summary">Скамейка в историческом парке у пруда.</string>
+    <string name="place_coffee_garden_detail">Летний сад имени Горького стоит у пруда. Здесь легко совместить напиток и прогулку по аллеям, особенно в тёплый день.</string>
+
+    <string name="place_coffee_square_name">Чашка на Центральной площади</string>
+    <string name="place_coffee_square_summary">Короткая остановка у эспланады и «Ижика».</string>
+    <string name="place_coffee_square_detail">Центральная площадь — удобная точка в центре. После кофе можно посмотреть на скульптуру «Ижик» и спуститься к воде.</string>
+
+    <string name="place_coffee_talisman_name">Кофе в «Талисмане»</string>
+    <string name="place_coffee_talisman_summary">Тёплый зал, если на улице дождь или мороз.</string>
+    <string name="place_coffee_talisman_detail">В ТРЦ «Талисман» на улице Холмогорова, 11, есть где выпить кофе, не гуляя по холоду. Удобно совместить с покупками.</string>
+
+    <string name="place_food_pond_name">Обед у пруда</string>
+    <string name="place_food_pond_summary">Поешьте после прогулки по набережной.</string>
+    <string name="place_food_pond_detail">Район набережной зодчего Дудина подходит для обеда после прогулки. Оставьте время, чтобы потом пройтись по лестницам к воде.</string>
+
+    <string name="place_food_center_name">Ужин в центре</string>
+    <string name="place_food_center_summary">Еда и спокойная прогулка по центральным улицам.</string>
+    <string name="place_food_center_detail">Центр Ижевска удобен, если после еды хотите дойти пешком до площади или Летнего сада.</string>
+
+    <string name="place_food_port_name">Семейный стол в «Мой порт»</string>
+    <string name="place_food_port_summary">Несколько кухонь в одном здании.</string>
+    <string name="place_food_port_detail">ТРЦ «Мой порт» на улице Кирова, 146, подходит для семьи: рядом магазины и кино, кухню можно выбрать по настроению.</string>
+
+    <string name="place_food_zoo_name">Перекус у зоопарка</string>
+    <string name="place_food_zoo_summary">Поешьте до или после вольеров.</string>
+    <string name="place_food_zoo_detail">Зоопарк Удмуртии стоит на улице Кирова, 8. Запланируйте еду рядом, чтобы не торопиться между площадками.</string>
+
+    <string name="place_park_embankment_name">Набережная зодчего Дудина</string>
+    <string name="place_park_embankment_summary">Главная прогулка вдоль Ижевского пруда.</string>
+    <string name="place_park_embankment_detail">Широкая набережная с лестницами и видами на воду. Хороша утром и вечером, когда на дорожках меньше спешки.</string>
+
+    <string name="place_park_gorky_name">Летний сад им. Горького</string>
+    <string name="place_park_gorky_summary">Исторический парк у пруда.</string>
+    <string name="place_park_gorky_detail">Аллеи, аттракционы и колесо обозрения. Удобно прийти с детьми и посидеть на скамейке у воды.</string>
+
+    <string name="place_park_kirov_name">Парк им. Кирова</string>
+    <string name="place_park_kirov_summary">Большой парк рядом с зоопарком.</string>
+    <string name="place_park_kirov_detail">Здесь хватает места и для спокойной дорожки, и для семейного дня. Рядом зоопарк, поэтому маршрут легко продлить.</string>
+
+    <string name="place_park_friendship_name">Монумент «Дружба народов»</string>
+    <string name="place_park_friendship_summary">Высокий обелиск у пруда.</string>
+    <string name="place_park_friendship_detail">Памятник посвящён вхождению Удмуртии в состав России и стал одним из символов города. Отсюда удобно продолжить путь по набережной.</string>
+
+    <string name="place_park_square_name">Центральная площадь</string>
+    <string name="place_park_square_summary">Эспланада и скульптура «Ижик».</string>
+    <string name="place_park_square_detail">Открытое пространство в центре города. «Ижик» собран из ключей горожан и стал талисманом Ижевска.</string>
+
+    <string name="place_kids_zoo_name">Зоопарк Удмуртии</string>
+    <string name="place_kids_zoo_summary">Животные и дорожки, удобные для семьи.</string>
+    <string name="place_kids_zoo_detail">Зоопарк на улице Кирова, 8. Заложите пару часов и удобную обувь. С маленькими детьми лучше приходить к открытию.</string>
+
+    <string name="place_kids_circus_name">Цирк Удмуртии</string>
+    <string name="place_kids_circus_summary">Представление, если гулять уже устали.</string>
+    <string name="place_kids_circus_detail">Городской цирк — вариант для выходного. Перед выходом проверьте афишу: дневные и вечерние сеансы отличаются.</string>
+
+    <string name="place_kids_museum_name">Музей Калашникова</string>
+    <string name="place_kids_museum_summary">История оружия и города для школьников.</string>
+    <string name="place_kids_museum_detail">Комплекс на улице Бородина, 19 интересен школьникам: есть экспозиции и тир. Понедельник обычно выходной, часы лучше уточнить заранее.</string>
+
+    <string name="place_kids_garden_name">Аттракционы Летнего сада</string>
+    <string name="place_kids_garden_summary">Колесо обозрения и площадки у пруда.</string>
+    <string name="place_kids_garden_detail">После аттракционов легко выйти к воде. Летом очереди больше, поэтому лучше приходить раньше.</string>
+
+    <string name="place_shop_talisman_name">ТРЦ «Талисман»</string>
+    <string name="place_shop_talisman_summary">Крупный центр на улице Холмогорова, 11.</string>
+    <string name="place_shop_talisman_detail">Магазины, еда и место переждать непогоду. Удобно, если нужны покупки в одном здании.</string>
+
+    <string name="place_shop_port_name">ТРЦ «Мой порт»</string>
+    <string name="place_shop_port_summary">Центр на улице Кирова, 146.</string>
+    <string name="place_shop_port_detail">Есть гипермаркет, кино и семейные развлечения. Здесь можно закрыть и покупки, и досуг.</string>
+
+    <string name="place_shop_omega_name">ТРЦ «Омега»</string>
+    <string name="place_shop_omega_summary">Центр на улице 10 лет Октября, 32.</string>
+    <string name="place_shop_omega_detail">Точка для обычных покупок в промышленном районе, если не хочется ехать в самый центр.</string>
+
+    <string name="place_shop_market_name">Центральный рынок</string>
+    <string name="place_shop_market_summary">Продукты и небольшие лавки.</string>
+    <string name="place_shop_market_detail">Рынок подходит, если нужны свежие продукты, а не витрины торгового центра. Удобнее приходить утром и взять с собой пакет.</string>
+
+</resources>
