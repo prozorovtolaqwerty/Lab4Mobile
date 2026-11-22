@@ -1,0 +1,182 @@
+package com.example.izhevsk
+
+object PlaceRepository {
+    private val places: List<Place> = listOf(
+        Place(
+            id = "coffee_embankment",
+            categoryId = Category.COFFEE,
+            nameRes = R.string.place_coffee_embankment_name,
+            summaryRes = R.string.place_coffee_embankment_summary,
+            detailRes = R.string.place_coffee_embankment_detail,
+            iconRes = R.drawable.ic_coffee,
+        ),
+        Place(
+            id = "coffee_garden",
+            categoryId = Category.COFFEE,
+            nameRes = R.string.place_coffee_garden_name,
+            summaryRes = R.string.place_coffee_garden_summary,
+            detailRes = R.string.place_coffee_garden_detail,
+            iconRes = R.drawable.ic_coffee,
+        ),
+        Place(
+            id = "coffee_square",
+            categoryId = Category.COFFEE,
+            nameRes = R.string.place_coffee_square_name,
+            summaryRes = R.string.place_coffee_square_summary,
+            detailRes = R.string.place_coffee_square_detail,
+            iconRes = R.drawable.ic_coffee,
+        ),
+        Place(
+            id = "coffee_talisman",
+            categoryId = Category.COFFEE,
+            nameRes = R.string.place_coffee_talisman_name,
+            summaryRes = R.string.place_coffee_talisman_summary,
+            detailRes = R.string.place_coffee_talisman_detail,
+            iconRes = R.drawable.ic_coffee,
+        ),
+        Place(
+            id = "food_pond",
+            categoryId = Category.RESTAURANTS,
+            nameRes = R.string.place_food_pond_name,
+            summaryRes = R.string.place_food_pond_summary,
+            detailRes = R.string.place_food_pond_detail,
+            iconRes = R.drawable.ic_restaurant,
+        ),
+        Place(
+            id = "food_center",
+            categoryId = Category.RESTAURANTS,
+            nameRes = R.string.place_food_center_name,
+            summaryRes = R.string.place_food_center_summary,
+            detailRes = R.string.place_food_center_detail,
+            iconRes = R.drawable.ic_restaurant,
+        ),
+        Place(
+            id = "food_port",
+            categoryId = Category.RESTAURANTS,
+            nameRes = R.string.place_food_port_name,
+            summaryRes = R.string.place_food_port_summary,
+            detailRes = R.string.place_food_port_detail,
+            iconRes = R.drawable.ic_restaurant,
+        ),
+        Place(
+            id = "food_zoo",
+            categoryId = Category.RESTAURANTS,
+            nameRes = R.string.place_food_zoo_name,
+            summaryRes = R.string.place_food_zoo_summary,
+            detailRes = R.string.place_food_zoo_detail,
+            iconRes = R.drawable.ic_restaurant,
+        ),
+        Place(
+            id = "park_embankment",
+            categoryId = Category.PARKS,
+            nameRes = R.string.place_park_embankment_name,
+            summaryRes = R.string.place_park_embankment_summary,
+            detailRes = R.string.place_park_embankment_detail,
+            iconRes = R.drawable.ic_park,
+        ),
+        Place(
+            id = "park_gorky",
+            categoryId = Category.PARKS,
+            nameRes = R.string.place_park_gorky_name,
+            summaryRes = R.string.place_park_gorky_summary,
+            detailRes = R.string.place_park_gorky_detail,
+            iconRes = R.drawable.ic_park,
+        ),
+        Place(
+            id = "park_kirov",
+            categoryId = Category.PARKS,
+            nameRes = R.string.place_park_kirov_name,
+            summaryRes = R.string.place_park_kirov_summary,
+            detailRes = R.string.place_park_kirov_detail,
+            iconRes = R.drawable.ic_park,
+        ),
+        Place(
+            id = "park_friendship",
+            categoryId = Category.PARKS,
+            nameRes = R.string.place_park_friendship_name,
+            summaryRes = R.string.place_park_friendship_summary,
+            detailRes = R.string.place_park_friendship_detail,
+            iconRes = R.drawable.ic_park,
+        ),
+        Place(
+            id = "park_square",
+            categoryId = Category.PARKS,
+            nameRes = R.string.place_park_square_name,
+            summaryRes = R.string.place_park_square_summary,
+            detailRes = R.string.place_park_square_detail,
+            iconRes = R.drawable.ic_park,
+        ),
+        Place(
+            id = "kids_zoo",
+            categoryId = Category.KIDS,
+            nameRes = R.string.place_kids_zoo_name,
+            summaryRes = R.string.place_kids_zoo_summary,
+            detailRes = R.string.place_kids_zoo_detail,
+            iconRes = R.drawable.ic_kids,
+        ),
+        Place(
+            id = "kids_circus",
+            categoryId = Category.KIDS,
+            nameRes = R.string.place_kids_circus_name,
+            summaryRes = R.string.place_kids_circus_summary,
+            detailRes = R.string.place_kids_circus_detail,
+            iconRes = R.drawable.ic_kids,
+        ),
+        Place(
+            id = "kids_museum",
+            categoryId = Category.KIDS,
+            nameRes = R.string.place_kids_museum_name,
+            summaryRes = R.string.place_kids_museum_summary,
+            detailRes = R.string.place_kids_museum_detail,
+            iconRes = R.drawable.ic_kids,
+        ),
+        Place(
+            id = "kids_garden",
+            categoryId = Category.KIDS,
+            nameRes = R.string.place_kids_garden_name,
+            summaryRes = R.string.place_kids_garden_summary,
+            detailRes = R.string.place_kids_garden_detail,
+            iconRes = R.drawable.ic_kids,
+        ),
+        Place(
+            id = "shop_talisman",
+            categoryId = Category.SHOPPING,
+            nameRes = R.string.place_shop_talisman_name,
+            summaryRes = R.string.place_shop_talisman_summary,
+            detailRes = R.string.place_shop_talisman_detail,
+            iconRes = R.drawable.ic_shop,
+        ),
+        Place(
+            id = "shop_port",
+            categoryId = Category.SHOPPING,
+            nameRes = R.string.place_shop_port_name,
+            summaryRes = R.string.place_shop_port_summary,
+            detailRes = R.string.place_shop_port_detail,
+            iconRes = R.drawable.ic_shop,
+        ),
+        Place(
+            id = "shop_omega",
+            categoryId = Category.SHOPPING,
+            nameRes = R.string.place_shop_omega_name,
+            summaryRes = R.string.place_shop_omega_summary,
+            detailRes = R.string.place_shop_omega_detail,
+            iconRes = R.drawable.ic_shop,
+        ),
+        Place(
+            id = "shop_market",
+            categoryId = Category.SHOPPING,
+            nameRes = R.string.place_shop_market_name,
+            summaryRes = R.string.place_shop_market_summary,
+            detailRes = R.string.place_shop_market_detail,
+            iconRes = R.drawable.ic_shop,
+        ),
+    )
+
+    fun placesFor(categoryId: String): List<Place> {
+        return places.filter { place -> place.categoryId == categoryId }
+    }
+
+    fun find(placeId: String): Place? {
+        return places.find { place -> place.id == placeId }
+    }
+}

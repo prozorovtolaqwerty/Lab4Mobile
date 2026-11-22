@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Izhevsk</string>
+    <string name="city_name">Izhevsk</string>
+    <string name="city_subtitle">Things to do in the city</string>
+    <string name="category_coffee">Coffee</string>
+    <string name="category_restaurants">Restaurants</string>
+    <string name="category_parks">Parks</string>
+    <string name="category_kids">For kids</string>
+    <string name="category_shopping">Shopping</string>
+    <string name="about_title">About</string>
+    <string name="settings_title">Settings</string>
+    <string name="detail_title">Place</string>
+    <string name="place_icon">Place icon</string>
+    <string name="compact_cards">Compact cards</string>
+    <string name="walk_reminder">Remind me to take a walk</string>
+    <string name="settings_hint">These settings stay after you rotate the screen. The reminder does not send a notification.</string>
+    <string name="about_body">A short guide to Izhevsk: coffee, food, walks, places for children, and shopping. Open a section from the bottom tabs or the side menu, then tap a card for details.
+
+Author: Anatoly Prozorov.</string>
+
+    <string name="place_coffee_embankment_name">Coffee by the embankment</string>
+    <string name="place_coffee_embankment_summary">Take a drink and walk along the pond.</string>
+    <string name="place_coffee_embankment_detail">The Dudin embankment is an easy place for coffee on the go. The air from the water and the view of the pond make a short break pleasant.</string>
+
+    <string name="place_coffee_garden_name">Coffee in the Summer Garden</string>
+    <string name="place_coffee_garden_summary">A bench in the historic park by the pond.</string>
+    <string name="place_coffee_garden_detail">Gorky Summer Garden sits by the pond. It is an easy place to combine a drink with a walk under the trees on a warm day.</string>
+
+    <string name="place_coffee_square_name">A cup on Central Square</string>
+    <string name="place_coffee_square_summary">A short stop by the esplanade and Izhik.</string>
+    <string name="place_coffee_square_detail">Central Square is a handy stop in the middle of the city. After coffee you can see the Izhik sculpture and walk down toward the water.</string>
+
+    <string name="place_coffee_talisman_name">Coffee in Talisman</string>
+    <string name="place_coffee_talisman_summary">A warm hall when it is raining or freezing outside.</string>
+    <string name="place_coffee_talisman_detail">Talisman mall on Kholmogorova 11 is a place to drink coffee without walking in the cold. It is easy to combine with shopping.</string>
+
+    <string name="place_food_pond_name">Lunch by the pond</string>
+    <string name="place_food_pond_summary">Eat after a walk along the embankment.</string>
+    <string name="place_food_pond_detail">The Dudin embankment area is a good place for lunch after a walk. Leave time to go down the stairs to the water afterward.</string>
+
+    <string name="place_food_center_name">Dinner in the center</string>
+    <string name="place_food_center_summary">A meal and a quiet walk through the central streets.</string>
+    <string name="place_food_center_detail">Central Izhevsk works well if you want to walk to the square or the Summer Garden after eating.</string>
+
+    <string name="place_food_port_name">A family table at Moy Port</string>
+    <string name="place_food_port_summary">Several kitchens in one building.</string>
+    <string name="place_food_port_detail">Moy Port mall at Kirova 146 suits a family: shops and a cinema are nearby, and you can pick the food that fits the mood.</string>
+
+    <string name="place_food_zoo_name">A snack by the zoo</string>
+    <string name="place_food_zoo_summary">Eat before or after the enclosures.</string>
+    <string name="place_food_zoo_detail">The Udmurtia Zoo is at Kirova 8. Plan a meal nearby so you do not have to rush between the exhibits.</string>
+
+    <string name="place_park_embankment_name">Dudin Embankment</string>
+    <string name="place_park_embankment_summary">The main walk along the Izhevsk pond.</string>
+    <string name="place_park_embankment_detail">A wide embankment with stairs and views of the water. It is especially pleasant in the morning and evening, when the paths are quieter.</string>
+
+    <string name="place_park_gorky_name">Gorky Summer Garden</string>
+    <string name="place_park_gorky_summary">A historic park by the pond.</string>
+    <string name="place_park_gorky_detail">Paths, rides, and a Ferris wheel. It is an easy visit with children, with benches close to the water.</string>
+
+    <string name="place_park_kirov_name">Kirov Park</string>
+    <string name="place_park_kirov_summary">A large park next to the zoo.</string>
+    <string name="place_park_kirov_detail">There is room for a quiet path and for a family day. The zoo is nearby, so the route is easy to extend.</string>
+
+    <string name="place_park_friendship_name">Friendship of Peoples monument</string>
+    <string name="place_park_friendship_summary">A tall obelisk by the pond.</string>
+    <string name="place_park_friendship_detail">The monument marks Udmurtia joining Russia and is one of the city symbols. From here it is natural to continue along the embankment.</string>
+
+    <string name="place_park_square_name">Central Square</string>
+    <string name="place_park_square_summary">The esplanade and the Izhik sculpture.</string>
+    <string name="place_park_square_detail">An open space in the city center. Izhik was assembled from keys collected by residents and became a city mascot.</string>
+
+    <string name="place_kids_zoo_name">Udmurtia Zoo</string>
+    <string name="place_kids_zoo_summary">Animals and paths that work for a family.</string>
+    <string name="place_kids_zoo_detail">The zoo is at Kirova 8. Allow a couple of hours and wear comfortable shoes. With small children it is better to arrive at opening time.</string>
+
+    <string name="place_kids_circus_name">Udmurtia Circus</string>
+    <string name="place_kids_circus_summary">A show for when everyone is tired of walking.</string>
+    <string name="place_kids_circus_detail">The city circus is a weekend option. Check the schedule before you leave, because daytime and evening shows differ.</string>
+
+    <string name="place_kids_museum_name">Kalashnikov Museum</string>
+    <string name="place_kids_museum_summary">The story of weapons and the city for schoolchildren.</string>
+    <string name="place_kids_museum_detail">The complex at Borodina 19 suits schoolchildren, with exhibits and a shooting range. Monday is usually closed, so check the hours before you go.</string>
+
+    <string name="place_kids_garden_name">Summer Garden rides</string>
+    <string name="place_kids_garden_summary">A Ferris wheel and play areas by the pond.</string>
+    <string name="place_kids_garden_detail">After the rides it is easy to walk out to the water. In summer the lines are longer, so come earlier.</string>
+
+    <string name="place_shop_talisman_name">Talisman mall</string>
+    <string name="place_shop_talisman_summary">A large center at Kholmogorova 11.</string>
+    <string name="place_shop_talisman_detail">Shops, food, and a place to wait out bad weather. Useful when you want to do the shopping in one building.</string>
+
+    <string name="place_shop_port_name">Moy Port mall</string>
+    <string name="place_shop_port_summary">A center at Kirova 146.</string>
+    <string name="place_shop_port_detail">It has a hypermarket, a cinema, and family entertainment. You can cover both shopping and free time here.</string>
+
+    <string name="place_shop_omega_name">Omega mall</string>
+    <string name="place_shop_omega_summary">A center at 10 Let Oktyabrya 32.</string>
+    <string name="place_shop_omega_detail">A place for ordinary shopping in the industrial district when you do not want to go all the way downtown.</string>
+
+    <string name="place_shop_market_name">Central market</string>
+    <string name="place_shop_market_summary">Food and small stalls.</string>
+    <string name="place_shop_market_detail">The market is the place for fresh food rather than mall windows. Morning is the easier time, and it helps to bring a bag.</string>
+
+</resources>

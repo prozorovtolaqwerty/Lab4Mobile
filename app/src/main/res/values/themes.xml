@@ -2,9 +2,17 @@
 <resources>
 
     <style name="Theme.Izhevsk" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:navigationBarColor">@color/card</item>
+    </style>
+
+    <style name="ThemeOverlay.Izhevsk.Toolbar" parent="">
+        <item name="colorControlNormal">@color/hamburger</item>
+        <item name="android:textColorPrimary">@color/on_primary</item>
     </style>
 
 </resources>

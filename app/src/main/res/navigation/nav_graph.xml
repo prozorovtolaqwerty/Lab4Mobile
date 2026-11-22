@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/coffeeFragment">
+
+    <action
+        android:id="@+id/action_global_detail"
+        app:destination="@id/detailFragment" />
+
+    <fragment
+        android:id="@+id/coffeeFragment"
+        android:name="com.example.izhevsk.RecommendationListFragment"
+        android:label="@string/category_coffee" />
+
+    <fragment
+        android:id="@+id/restaurantsFragment"
+        android:name="com.example.izhevsk.RecommendationListFragment"
+        android:label="@string/category_restaurants" />
+
+    <fragment
+        android:id="@+id/parksFragment"
+        android:name="com.example.izhevsk.RecommendationListFragment"
+        android:label="@string/category_parks" />
+
+    <fragment
+        android:id="@+id/kidsFragment"
+        android:name="com.example.izhevsk.RecommendationListFragment"
+        android:label="@string/category_kids" />
+
+    <fragment
+        android:id="@+id/shoppingFragment"
+        android:name="com.example.izhevsk.RecommendationListFragment"
+        android:label="@string/category_shopping" />
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.izhevsk.AboutFragment"
+        android:label="@string/about_title" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.izhevsk.SettingsFragment"
+        android:label="@string/settings_title" />
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.izhevsk.PlaceDetailFragment"
+        android:label="@string/detail_title">
+        <argument
+            android:name="placeId"
+            app:argType="string" />
+    </fragment>
+
+</navigation>
